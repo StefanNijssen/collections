@@ -8,6 +8,6 @@ def fill_bag():
         kleur = random.choice(list)
         Zak.append(kleur)
         aantal -= 1
-    print("De zak M&M bevat:")
-    print(Zak)
+    print("De zak M&M bevat:" + Zak)
+
 fill_bag()
